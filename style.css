@@ -6,7 +6,7 @@
 
 .nav-bg-color {
   background-color: #1a187a;
-  padding-left: 200px;
+  padding-left: 240px;
 }
 
 .search-icon {
@@ -29,6 +29,51 @@
   opacity: 0.6;
 }
 
+.banner {
+  background: url(./images/v904-nunny-012\ 1.png) rgb(148, 142, 142) 50% / cover
+    no-repeat;
+
+  height: 90vh;
+  overflow: hidden;
+}
+.banner-img {
+  width: 450px;
+  height: 900px;
+  padding-top: 100px;
+}
+.banner-img2 {
+  width: 706px;
+  height: 900px;
+  padding-top: 100px;
+}
+.banner-title {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.96px;
+  margin-bottom: 20px;
+}
+.pro {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.96px;
+}
+.banner-slide {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.banner-description {
+  font-size: 16px;
+}
+
 @media screen and (max-width: 576px) {
   .nav-bg-color {
     padding-left: 0;
@@ -36,5 +81,33 @@
   .logo-img {
     width: 70%;
     height: 70%;
+  }
+  .banner {
+    background: url(./images/v904-nunny-012\ 1.png) rgb(148, 142, 142) 50% /
+      cover no-repeat;
+    height: 700px;
+    overflow: hidden;
+  }
+  .banner-title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .pro {
+    font-size: 34px;
+  }
+  .banner-text-center {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+  .banner-img {
+    height: 600px;
+    width: 300px;
+  }
+  .banner-slide {
+    flex-direction: column;
   }
 }
