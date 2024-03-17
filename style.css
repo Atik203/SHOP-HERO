@@ -96,10 +96,11 @@
   height: 250px;
 }
 .mackbook-img {
-  width: 829px;
+  width: 700px;
 }
 .mackbook-div {
   background-color: #ededed;
+  padding-top: 70px;
 }
 .btn-blue {
   border-radius: 6px;
@@ -113,6 +114,20 @@
   background: #3d3d3e;
   color: #fff;
 }
+
+.section-2 {
+  width: 80%;
+  margin-top: 100px;
+}
+.mackbook-text-container {
+  width: 60%;
+  padding-top: 60px;
+}
+.mackbook-img-div {
+  width: 40%;
+}
+
+/* Mobile responsive */
 @media screen and (max-width: 576px) {
   .nav-bg-color {
     padding-left: 0;
@@ -120,6 +135,13 @@
   .logo-img {
     width: 70%;
     height: 70%;
+  }
+  .section-2 {
+    width: 90%;
+    margin-top: 40px;
+  }
+  .section-1 {
+    height: 1200px;
   }
   .banner {
     background: url(./images/v904-nunny-012\ 1.png) rgb(148, 142, 142) 50% /
@@ -162,7 +184,19 @@
     gap: 40px;
     text-align: left;
   }
+  .mackbook-div {
+    padding: 0;
+  }
   .mackbook-img {
     width: 350px;
+  }
+  .mackbook-text-container {
+    width: 90%;
+    padding-top: 40px;
+    margin: auto;
+  }
+  .mackbook-img-div {
+    width: 80%;
+    margin: auto;
   }
 }
