@@ -192,6 +192,48 @@
   align-self: stretch;
   margin-top: 10px;
 }
+.section-4 {
+  background: #958ad4;
+  height: 472px;
+  flex-shrink: 0;
+}
+.section-4-left-img {
+  width: 421px;
+  height: 342px;
+  flex-shrink: 0;
+  margin-left: -130px;
+  background: url(./images/image\ 19.png) #958ad4 50% / cover no-repeat;
+}
+.section-4-right-img {
+  width: 570px;
+  height: 357px;
+  flex-shrink: 0;
+  margin-right: -240px;
+  transform: scaleX(-1);
+  background: url(./images/tab.png) #958ad4 50% / cover no-repeat;
+}
+.eleven {
+  color: #25177b;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px; /* 100% */
+  letter-spacing: -0.72px;
+}
+.sale {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+  letter-spacing: -0.72px;
+}
+.eleven-sale-div {
+  width: 50%;
+}
 
 /* Mobile responsive */
 @media screen and (max-width: 576px) {
@@ -212,6 +254,10 @@
   .section-3 {
     width: 90%;
     margin-top: 40px;
+  }
+  .section-4 {
+    height: 900px;
+    overflow: hidden;
   }
   .banner {
     background: url(./images/v904-nunny-012\ 1.png) rgb(148, 142, 142) 50% /
@@ -275,5 +321,23 @@
   .card-div {
     min-width: 300px;
     height: 400px;
+  }
+  .section-4-left-img {
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+    transform: scaleY(-1);
+    transform: rotate(90deg);
+    margin-left: 20px;
+    margin-top: -120px;
+  }
+  .section-4-right-img {
+    width: 400px;
+    height: 300px;
+    margin-right: -170px;
+    margin-bottom: -70px;
+  }
+  .eleven-sale-div {
+    width: 100%;
   }
 }
