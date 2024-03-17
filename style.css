@@ -114,8 +114,25 @@
   background: #3d3d3e;
   color: #fff;
 }
-
+.btn-black {
+  border-radius: 8px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 10px 20px;
+  margin: auto;
+}
+.btn-black:hover {
+  background: #3d3d3e;
+  color: #fff;
+}
 .section-2 {
+  width: 80%;
+  margin-top: 100px;
+}
+.section-3 {
   width: 80%;
   margin-top: 100px;
 }
@@ -139,6 +156,42 @@
   border-radius: 15px;
   background: #ededed;
 }
+.card-div {
+  height: 350px;
+  text-align: center;
+  min-width: 200px;
+  display: flex;
+  padding: 24px 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  flex: 1 0 0;
+  border-radius: 9px;
+  background: #f0eeee;
+}
+.card-img-top {
+  width: 160px;
+  height: 160px;
+}
+.card-title {
+  color: var(--Main-Black, #000);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.card-text {
+  color: var(--Main-Black, #000);
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+  align-self: stretch;
+  margin-top: 10px;
+}
 
 /* Mobile responsive */
 @media screen and (max-width: 576px) {
@@ -155,6 +208,10 @@
   }
   .section-1 {
     height: 1200px;
+  }
+  .section-3 {
+    width: 90%;
+    margin-top: 40px;
   }
   .banner {
     background: url(./images/v904-nunny-012\ 1.png) rgb(148, 142, 142) 50% /
@@ -214,5 +271,9 @@
   }
   .category-container {
     gap: 20px;
+  }
+  .card-div {
+    min-width: 300px;
+    height: 400px;
   }
 }
