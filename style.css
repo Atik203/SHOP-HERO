@@ -196,6 +196,7 @@
   background: #958ad4;
   height: 472px;
   flex-shrink: 0;
+  overflow: hidden;
 }
 .section-4-left-img {
   width: 421px;
@@ -233,6 +234,37 @@
 }
 .eleven-sale-div {
   width: 50%;
+}
+footer {
+  padding: 104px 160px;
+  background: #0e071b;
+}
+.footer-div {
+  text-align: start;
+}
+.footer-img {
+  width: 228px;
+  height: 46.494px;
+}
+.footer-title {
+  color: var(--Main-White, #fff);
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 250;
+}
+.footer-description {
+  color: #cfcfcf;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+}
+:hover.footer-description {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.icon-container {
+  display: none;
 }
 
 /* Mobile responsive */
@@ -335,9 +367,36 @@
     width: 400px;
     height: 300px;
     margin-right: -170px;
-    margin-bottom: -70px;
+    margin-bottom: -80px;
   }
   .eleven-sale-div {
     width: 100%;
+  }
+  footer {
+    padding: 20px 40px;
+  }
+  .footer-div {
+    text-align: center;
+  }
+  .footer-img {
+    width: 80%;
+    height: 80%;
+  }
+  .footer-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: larger;
+    margin-bottom: 20px;
+  }
+  .icon-hidden-lg {
+    display: none;
   }
 }
