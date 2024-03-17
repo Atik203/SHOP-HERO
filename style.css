@@ -266,7 +266,10 @@ footer {
 .icon-container {
   display: none;
 }
-
+:hover.fa-heart {
+  color: red;
+  font-weight: bold;
+}
 /* Mobile responsive */
 @media screen and (max-width: 576px) {
   .nav-bg-color {
